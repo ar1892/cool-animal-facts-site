@@ -1,4 +1,4 @@
-<!-- ChatGPT helped format this layout and content -->
+<!-- ChatGPT helped redesign layout and added image gallery -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -13,7 +13,7 @@
 
   <!-- NAVBAR -->
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
       <div class="container">
         <a class="navbar-brand" href="index.html">Peruvian Wildlife</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks">
@@ -32,23 +32,50 @@
 
   <!-- MAIN CONTENT -->
   <main class="container my-5">
-    <h1>About This Site</h1>
-    <p>
-      Hi! I'm <strong>Andres Raygada</strong>, and I created this website as part of a class project to explore the unique and incredible biodiversity of Peru. As someone who loves both technology and nature, I wanted to showcase some of the amazing animals that call Peru home.
-    </p>
-    <p>
-      This site features six fascinating species — from the elusive Spectacled Bear to the colorful Andean Cock-of-the-Rock. The goal is to raise awareness and appreciation for Peru’s wildlife, and to give visitors a simple, engaging way to learn something new.
-    </p>
-    <p>
-      The site was built using HTML, CSS, and the Bootstrap framework for responsiveness. It is hosted publicly on GitHub Pages.
-    </p>
-    <p>
-      Thank you for visiting!
-    </p>
+    <h1 class="mb-4 text-center">About This Site</h1>
+
+    <div class="row justify-content-center mb-5">
+      <div class="col-md-10">
+        <p>
+          Hi! I'm <strong>Andres Raygada</strong>, and I created this website as part of a class project to explore the unique and incredible biodiversity of Peru.
+        </p>
+        <p>
+          As someone who loves both technology and nature, I wanted to showcase some of the amazing animals that call Peru home. This site highlights both well-known and rare creatures from the jungle, mountains, rivers, and coasts of Peru.
+        </p>
+        <p>
+          My goal is to raise awareness and appreciation for Peruvian wildlife, while building a fully responsive, multi-page website using HTML, CSS, and Bootstrap. Everything you see here is powered by GitHub Pages.
+        </p>
+      </div>
+    </div>
+
+    <hr class="my-5" />
+
+    <!-- PHOTO GALLERY -->
+    <section>
+      <h2 class="text-center mb-4">Discover Peru 🇵🇪</h2>
+      <div class="row g-4 text-center">
+        <div class="col-md-3 col-sm-6">
+          <img src="https://cdn.britannica.com/48/3448-050-1EFC8CF3/Flag-Peru.jpg" alt="Peruvian Flag" class="img-fluid rounded shadow-sm" />
+          <p class="mt-2">Peru's Flag</p>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <img src="https://www.salkantaytrekmachu.com/img/peruvian-amazon-travel-peru-06-327.jpg" alt="Amazon Rainforest" class="img-fluid rounded shadow-sm" />
+          <p class="mt-2">Amazon Rainforest</p>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <img src="https://www.unchartedbackpacker.com/wp-content/uploads/2019/07/DJI_0700.jpg" alt="Peruvian Coast" class="img-fluid rounded shadow-sm" />
+          <p class="mt-2">Peruvian Coast</p>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <img src="https://res.cloudinary.com/oasisapp/image/upload/c_fill,w_1200/1/peru/machu-picchu-13912" alt="Andes Mountains" class="img-fluid rounded shadow-sm" />
+          <p class="mt-2">Andes Mountains</p>
+        </div>
+      </div>
+    </section>
   </main>
 
   <!-- FOOTER -->
-  <footer class="bg-success text-white text-center py-3">
+  <footer class="bg-danger text-white text-center py-3 mt-5">
     <div class="container">
       <small>Website by Andres Raygada – Celebrating Peru’s biodiversity</small>
     </div>
