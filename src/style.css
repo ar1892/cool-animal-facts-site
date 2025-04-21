@@ -1,0 +1,42 @@
+/* ChatGPT helped with styling tweaks and colors */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fefefe;
+    color: #212121;
+  }
+  
+  h1, h5 {
+    font-weight: bold;
+  }
+  
+  .navbar-brand {
+    font-weight: 600;
+  }
+  
+  .card-title {
+    color: #2e7d32;
+  }
+  
+  footer {
+    font-size: 0.9rem;
+  }
+  
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-text {
+    font-size: 0.95rem;
+  }
+  
+  @media (max-width: 768px) {
+    h1.display-4 {
+      font-size: 2rem;
+    }
+  
+    .card-text {
+      font-size: 0.9rem;
+    }
+  }

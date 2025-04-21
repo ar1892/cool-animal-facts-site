@@ -1,0 +1,17 @@
+Peruvian Wildlife Wonders – Website Layout Sketch
+
+Main Layout (all pages):
+-------------------------------------------------
+[Header] - Site title and navigation menu
+-------------------------------------------------
+[Main Content Area]
+ - Home Page (index.html): Hero image + 6 animal cards
+ - About Page (about.html): Info about creator and purpose
+ - Contact Page (contact.html): Fun message + basic contact form
+-------------------------------------------------
+[Footer] - “Website by Andres Raygada – Celebrating Peru’s biodiversity”
+-------------------------------------------------
+
+Mobile View: Stacks vertically
+Desktop View: Navigation stays at the top, content is centered
+Bootstrap Grid System used for layout responsiveness

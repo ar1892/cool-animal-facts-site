@@ -1,0 +1,20 @@
+Cool Animal Facts Website – Planning Document
+
+Objective:
+To provide fun, interesting, and educational facts about Peru's fauna biodiversity in a simple and engaging way. 
+
+Audience:
+Anyone who enjoys learning quirky facts about  animals and want's to learn more about the peruvian wildlife ecosystem – students, animal lovers, or curious minds of any age.
+
+Purpose:
+To entertain and educate visitors with cool facts about a variety of animals using simple language and visuals. The site aims to be light, colorful, and easy to navigate.
+
+Pages:
+1. Home (index.html) – Welcome and highlight 3 featured animals
+2. About (about.html) – Who made the site and why
+3. Contact (contact.html) – Contact info or just a fun message + form
+
+Technologies:
+- HTML5 for structure
+- CSS (with Bootstrap) for styling and responsiveness
+- Hosted on GitHub Pages
